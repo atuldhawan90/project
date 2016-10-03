@@ -3,7 +3,7 @@
 int my_strlen(char *s)
 {
    char *p = s;
-
+   printf("Before confilct");
    while (*p)
       ++p;
 
